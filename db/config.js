@@ -1,4 +1,4 @@
-import { Pool } from 'pg';
+const { Pool } = require('pg');
 
 const pool = new Pool({
     HOST: "ec2-44-195-201-3.compute-1.amazonaws.com",
